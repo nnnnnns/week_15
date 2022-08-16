@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 14</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <!-- <div class="wrapper">
+        <label for="yourName">Как тебя зовут?</label>
+        <p>
+            <input type="text" name="name" id="name" placeholder="Имя">
+        </p>
+        <input type="button" name="send" value="Отправить" onclick="clickMe()">
+        <p>
+            <input type="text" id="resultName">
+        </p>
+    </div> -->
+
+    <div>
+        <fieldset class="form">
+            <label for="firstNumber">Какое первое число?</label>
+            <p>
+                <input type="number" name="number" id="numberOne">
+            </p>
+            <label for="secondNumber">Какое второе число?</label>
+            <p>
+                <input type="number" name="number" id="numberTwo">
+            </p>
+            <input type="button" name="addition" id="addition" value="+" onclick="addMe()">
+            <input type="button" name="subtraction" id="subtraction" value="-" onclick="subtractMe()">
+            <input type="button" name="division" id="division" value="/" onclick="divideMe()">
+            <input type="button" name="multiplication" id="multiplication" value="*" onclick="multiplyMe()">
+
+            <p><label for="secondNumber">Итого</label>
+                <input type="text" name="result" id="result"></p>
+        </fieldset>
+    </div>
+
+    <!-- <div class="bg" onclick="changeColor(this)">Нажми</div>
+    <div class="bg" onclick="changeColorTwo(this)">Тоже нажми</div>
+
+    <div>
+        <img src="https://funart.pro/uploads/posts/2021-11/1638225751_2-funart-pro-p-kotiki-milie-nyashnie-zhivotnie-krasivo-fo-2.jpg"
+            alt="cat" width="35%" id="catImage">
+    </div>
+    <div class="buttons">
+        <input type="button" name="back" id="back" value="Назад" onclick="changeMe()">
+        <input type="button" name="forward" id="forward" value="Вперед" onclick="changeMe2()">
+    </div> -->
+
+    <div class="formYandex">
+        <div class="imageYandex">
+            <a href="https://yandex.ru/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Yandex_icon.svg/2048px-Yandex_icon.svg.png"
+                    alt="Яндекс" width="70px"></a>
+        </div>
+        <label for="name">Введите ваше имя</label>
+        <p><input type="text" id="name" placeholder="Имя"></p>
+        <label for="surname">Введите вашу фамилию</label>
+        <p><input type="text" id="surname" placeholder="Фамилия"></p>
+        <label for="email">Введите ваш email</label>
+        <p><input type="email" id="email" placeholder="Email"></p>
+        <label for="password">Придумайте пароль</label>
+        <p><input type="password" id="password" placeholder="Пароль"></p>
+        <label for="password">Повторите пароль</label>
+        <p><input type="password" id="passwordTwo" placeholder="Пароль"></p>
+        <div id="errorMessage"></div>
+        <button class="buttonYandex" onclick="createAccount()">Создать</button>
+    </div>
+
+    <script src="style/index.js"></script>
+
+</body>
+
+</html>

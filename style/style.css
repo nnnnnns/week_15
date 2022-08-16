@@ -1,0 +1,105 @@
+body {
+    background-color: beige;
+}
+
+div {
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+    font-weight: 600;
+    color: rgb(150, 23, 223);
+    padding-bottom: 50px;
+}
+
+.form {
+    width: 35vw;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    color: rgb(150, 23, 223);
+    font-weight: 600;
+}
+
+/* .bg {
+    margin: auto;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    height: 60px;
+    width: 100px;
+    font-weight: 600;
+    background-color: rgb(195, 192, 197);
+    color: rgb(208, 34, 34);
+} */
+
+/* .bgColor {
+    background-color: rgb(193, 157, 216);
+    border: 2px solid rgb(74, 70, 77);
+}
+
+.bgColorTwo {
+    background-color: rgb(234, 243, 141);
+    border: 2px solid rgb(172, 164, 179);
+} */
+
+/* #resultName {
+    background-color: unset;
+    border: none;
+    color: #d31919;
+    font-size: 24px;
+} */
+
+/* .buttons {
+    padding-bottom: 50px;
+} */
+
+.formYandex {
+    margin: 0 auto;
+    width: 25vw;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.imageYandex {
+    padding: 20px;
+}
+
+.formYandex input {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.326);
+}
+
+.formYandex label{
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.609);
+}
+
+.buttonYandex {
+    margin: 30px;
+    width: 80%;
+    height: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    background-color: #ffcc00;
+    border:none;
+    border-radius: 5px;
+}
+
+.buttonYandex:hover {
+    background-color: #edbe03;
+    transition: 0.3s;
+}
+
+::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: rgba(128, 128, 128, 0.456);
+}
+
+#errorMessage {
+    color: red;
+}
